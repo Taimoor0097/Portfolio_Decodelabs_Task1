@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  box-shadow: 0 0 10px cyan;
+}
+
+header h1 {
+  color: cyan;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: cyan;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: cyan;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.3);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  background: #1a1a1a;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.3);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card a {
+  display: inline-block;
+  margin: 10px;
+  padding: 8px 12px;
+  background: cyan;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  margin-top: 30px;
+}
